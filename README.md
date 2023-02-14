@@ -1,49 +1,31 @@
-<img align="right" src="https://github.com/ada-school/module-template/blob/main/ada.png">
+## Acceso a swagger 
 
-## Codelab 🧪 Implementing a REST API Service
+Por medio del siguiente link podremos ver la documentación ofrecida: http://localhost:8080/swagger-ui/index.html
 
-Implement different REST API Services to support a store products management system, implementing each CRUD Operation
-with Pagination for each service (Users and Products):
+veremos lo siguiente:
 
-- Create
-- Read
-- Update
-- Delete
+![image](https://user-images.githubusercontent.com/90010904/218603354-7aade084-c600-4816-9453-c5ce2419ed00.png)
 
-👉 Aim to reach the [Glory of Rest](https://martinfowler.com/articles/richardsonMaturityModel.html).
+## Pruebas realizadas:
 
-👉 Use the correct methods and status codes
-of [HTTP Protocol](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP).
+Para estas empleamos la aplicación de postman:
 
-👉 It should have at least have
-the [Level 2 - HTTP Verbs of Richardson Maturity Model](https://martinfowler.com/articles/richardsonMaturityModel.html).
+### POST:
 
-**Programming Language**:- Java.
+![image](https://user-images.githubusercontent.com/90010904/218604065-5846e028-7d25-439a-839c-d344d95e234e.png)
 
-**Framework:** Spring Boot.
+![image](https://user-images.githubusercontent.com/90010904/218604425-88dfdfdd-f665-40e9-a668-d08e1a93aa11.png)
 
-**Database:** MongoDB.
+### GET:
 
-**Learning Objectives**
+![image](https://user-images.githubusercontent.com/90010904/218604591-c3f8eace-8846-4e51-9e01-fcc6fa0a3b63.png)
 
-- [ ]  Use the Richardson Maturity Model to implement a REST API Service.
-- [ ]  Implement a REST API Service using Spring Boot.
-- [ ]  Implement CRUD Operations.
+![image](https://user-images.githubusercontent.com/90010904/218604751-3c659f4a-c3b7-416f-8d8b-58e4942b9d57.png)
 
-## Detail Orientation 🤹🏽
+### PUT:
 
-Good code is about details. Follow each step carefully and make sure your code is clean and readable.
+![image](https://user-images.githubusercontent.com/90010904/218604997-685cb8fc-63f2-4743-9189-4c06949de192.png)
 
-**Main Topics**
+### DELETE:
 
-* Microservices.
-* REST API.
-* MongoDB.
-* Java.
-* Spring Boot.
-
-## Codelab 🧪
-
-🗣️ "I hear and I forget I see and I remember I do and I understand." Confucius
-
-
+![image](https://user-images.githubusercontent.com/90010904/218605058-41a35c4c-24df-4142-83a6-7cfedca43a04.png)
